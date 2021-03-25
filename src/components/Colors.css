@@ -1,0 +1,74 @@
+.colorbox {
+    border: 2x solid black;
+    border-radius: 10px;
+    background-color: #b3e3ff;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 9%;
+    opacity: 0.6;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .colorbox:hover {opacity: 1}
+  
+  .colorbox p {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin: 0 20px;
+    margin-top: 70px;
+    opacity: 0.0;
+    animation: fadeIn  3s;
+    -webkit-animation: fadeIn  3s;
+  }
+
+  .colorbox .description{
+    text-align: center;
+    margin: 0 20px;
+    margin-top: 70px;
+  }
+
+  .colorbox .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .colorbox .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
